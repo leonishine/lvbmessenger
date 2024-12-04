@@ -1,3 +1,5 @@
 public class Main {
-    System.out.println("GIT");
+    public static void main(String[] args) {
+
+    }
 }
