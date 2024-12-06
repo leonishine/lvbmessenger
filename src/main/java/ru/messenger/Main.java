@@ -12,8 +12,8 @@ public class Main {
     public static void main(String[] args) {
         //User[] users = {new User("Admin", "Administrator", "88005553535", "12341234")};
         //Message[] messages = {new Message(users[0], users[1],"Hello there!", "06.12.2024 23:57")};
-        //User[] users = UserService.create4Users();
-        //Message[] messages = MessageService.create4Messages(users[0], users[1]);
+        User[] users = UserService.create4Users();
+        Message[] messages = MessageService.create4Message(users[0], users[1]);
         //usersOut(users);
         //messagesOut(messages);
     }

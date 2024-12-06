@@ -10,7 +10,7 @@ public class MessageService {
         create4Message(user1, user2);
     }
 
-    public void create4Message(User user1, User user2) {
+    public static Message[] create4Message(User user1, User user2) {
         Message[] arr = new Message[4];
         Message m1 = new Message(user1, user2, "Привет, ты как?", "06.12.2024 19:30");
         arr[0] = m1;
@@ -20,5 +20,6 @@ public class MessageService {
         arr[2] = m3;
         Message m4 = new Message(user2, user1, "Прибыл Годжо Сатору", "06.12.2024 20:31");
         arr[3] = m4;
+        return arr;
     }
 }
