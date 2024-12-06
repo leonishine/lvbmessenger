@@ -10,12 +10,12 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        User[] users = {};
-        Message[] messages = {};
+        //User[] users = {new User("Admin", "Administrator", "88005553535", "12341234")};
+        //Message[] messages = {new Message(users[0], users[1],"Hello there!", "06.12.2024 23:57")};
         //User[] users = UserService.create4Users();
         //Message[] messages = MessageService.create4Messages(users[0], users[1]);
-        usersOut(users);
-        messagesOut(messages);
+        //usersOut(users);
+        //messagesOut(messages);
     }
 
     private static void usersOut(User[] users) {
@@ -25,7 +25,7 @@ public class Main {
     }
 
     private static void userOut(User user) {
-        //System.out.printf("%s, %s, %d, %d",user.getNickname(), user.getName(), user.getPhonenumber(), user.getPassword());
+        System.out.printf("%s, %s, %s, %s",user.getNickname(), user.getName(), user.getPhonenumber(), user.getPassword());
     }
 
     private static void messagesOut(Message[] mes) {
