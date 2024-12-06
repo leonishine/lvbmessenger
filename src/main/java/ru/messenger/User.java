@@ -3,10 +3,10 @@ package ru.messenger;
 public class User {
     private String nickname;
     private String name;
-    private int password;
-    private int phonenumber;
+    private String password;
+    private String phonenumber;
 
-    public User(String nickname, String name, int phonenumber, int password) {
+    public User(String nickname, String name, String phonenumber, String password) {
         this.nickname = nickname;
         this.name = name;
         this.password = password;
@@ -29,19 +29,19 @@ public class User {
         this.name = name;
     }
 
-    public int getPassword() {
+    public String getPassword() {
         return password;
     }
-    public void setPassword(int password){
+    public void setPassword(String password){
         this.password = password;
 
     }
 
-    public int getPhonenumber() {
+    public String getPhonenumber() {
         return phonenumber;
     }
 
-    public void setPhonenumber(int phonenumber) {
+    public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
     }
 
