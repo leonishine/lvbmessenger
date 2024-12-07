@@ -1,6 +1,6 @@
 package ru.messenger;
 
-public class UserService {
+public class  UserService {
     public User[] create4Users() {
         User[] array = new User[4];
         array[0] = new User("Bimbomyzz", "Roman", "78432214250", "1234455");
